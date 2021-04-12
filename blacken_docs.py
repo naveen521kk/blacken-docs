@@ -26,7 +26,7 @@ MD_PYCON_RE = re.compile(
     re.DOTALL | re.MULTILINE,
 )
 PY_LANGS = '(python|py|sage|python3|py3|numpy)'
-BLOCK_TYPES = '(code|code-block|sourcecode|ipython)'
+BLOCK_TYPES = '(code|code-block|sourcecode|ipython|manim)'
 DOCTEST_TYPES = '(testsetup|testcleanup|testcode)'
 RST_RE = re.compile(
     rf'(?P<before>'
